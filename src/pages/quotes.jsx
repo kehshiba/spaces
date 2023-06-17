@@ -1,0 +1,26 @@
+
+const quotes = [
+    "I'm not great at the advice. Can I interest you in a sarcastic comment? 😏 - Chandler Bing, Friends",
+    "To be honest, I'm just winging it. Life, motherhood, my eyeliner. Everything. 😅 - Rosa Diaz, Brooklyn Nine-Nine",
+    "Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way. 🤷‍♂️ - Michael Scott, The Office",
+    "Whenever I'm about to do something, I think, 'Would an idiot do that?' And if they would, I do not do that thing. 😆 - Dwight Schrute, The Office",
+    "The only way to do your job is to enjoy what you're doing. 🕺 - Barney Stinson, How I Met Your Mother",
+    "I have a lot of experience with people who want to rush into things. Not one of them turned out to be the one. 💔 - Lily Aldrin, How I Met Your Mother",
+    "The best ideas come from the worst situations. 😅 - Richard Hendricks, Silicon Valley",
+    "You know what the problem with the workplace is? You can't get tipsy and loopy at work. 🍷😜 - Erlich Bachman, Silicon Valley",
+    "You can't have a favorite Iron Chef. It depends entirely on the secret ingredient. 🍽️ - Joey Tribbiani, Friends",
+    "When I'm down, I cease being down and be mind-blowingly amazing instead. 😎 - Barney Stinson, How I Met Your Mother",
+    "If there's one thing I've learned, it's that life is just one crushing letdown after another until you just wish Flanders was gone. 😂 - Homer Simpson (cameo), The Office",
+    "You don't need a reason to help folks. 🤝 - Zoidberg (cameo), Brooklyn Nine-Nine",
+    "If you're gonna be successful, you gotta be willing to cut off your closest buddies. But not like dangly bits. 😳 - Jake Peralta, Brooklyn Nine-Nine",
+    "All I want is someone who will want to hang out all the time, and thinks I'm the bee's knees, and wants to have fun with only me. 🙈 - Barney Stinson, How I Met Your Mother",
+    "When people ask if I'm seeing someone, I always say, 'Of course I am!' Because in my dreams, it's true. 😴 - Joey Tribbiani, Friends",
+    "Don't strive for recognition, but do work that is worthy of recognition. 🏆 - Pam Beesly, The Office",
+    "You should never settle for who you are. 👊 - Sheldon Cooper (cameo), The Office",
+    "The key to being a good boss is to be a good listener. And to fire people when they least expect it. 🔑 - Andy Bernard, The Office",
+    "People say, 'Oh, it's dangerous to keep weapons in the home or the workplace.' Well, I say, 'It's better to be hurt by someone you know unintentionally than by a stranger on purpose.' 🗡️ - Dwight Schrute, The Office",
+    "Losing my job isn't ideal right now. I've put a lot of self-esteem chips into this gig. 😓 - George Costanza (cameo), The Office",
+    "They say 'dress for the job you want, not the job you have.' That's why I'm wearing Batman pajamas. 😜 - Jake Peralta, Brooklyn Nine-Nine",
+    "My coworkers are like my extended family, and my family hates me, so it's perfect. 🤪 - Michael Scott, The Office",
+    ];
+export default quotes;

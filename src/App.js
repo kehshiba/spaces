@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Attendance from "./pages/attendance";
+import Login from "./pages/login";
+import {Route, Routes} from "react-router-dom";
+import AddNew from "./pages/addnew";
+import ViewAll from "./pages/viewall";
+import Reset from "./pages/reset";
+import Profile from "./pages/Profile";
+import ProfileBuilder from "./pages/profilebuilder";
+import Lost from "./pages/lost";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+            <Routes>
+                <Route exact path="/login" element={<Login />} />
+                <Route exact path="/add" element={<AddNew />} />
+                <Route exact path="/view" element={<ViewAll />} />
+                <Route exact path="/" element={<Attendance />} />
+                <Route exact path="/reset" element={<Reset />} />
+                <Route exact path="/reset" element={<Reset />} />
+                <Route exact path="/lost" element={<Lost />} />
+                <Route path="/me/:username" element={<Profile />} />
+                <Route path="/spaces" element={<ProfileBuilder />} />
+            </Routes>
+     </div>
+
+
+)}
 
 export default App;
